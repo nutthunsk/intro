@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="website icon" type="jpg" href="image/DALL·E 2024-10-13 19.25.14 - A modern logo for a store named 'mono it', specializing in technology and computer products. The design features minimalist elements like a circuit bo.webp">
+    <link rel="stylesheet" href="css/signup.css">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="..\css\signup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Sign Up</h2>
+            <form id="signupForm" action="/signup" method="post" onsubmit="return validateForm()">
+                
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="phone">Phone Number</label>
+                <div class="phone-input">
+                    <span class="country-code">+66</span>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                </div>
+
+                <label for="password">Create Password</label>
+                <input type="password" id="password" name="password" placeholder="Create a password" required>
+
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required>
+
+                <p class="error" id="error-message">Passwords do not match!</p>
+
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
