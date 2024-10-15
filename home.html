@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,147 +9,162 @@
     <link rel="website icon" type="jpg" href="image/DALL·E 2024-10-13 19.25.14 - A modern logo for a store named 'mono it', specializing in technology and computer products. The design features minimalist elements like a circuit bo.webp">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <header class="p-3 text-bg-dark">
         <div class="container">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <img src="image/DALL·E 2024-10-13 19.25.14 - A modern logo for a store named 'mono it', specializing in technology and computer products. The design features minimalist elements like a circuit bo.webp" alt="" width="55px" height="55px">
-    
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="home.html" class="nav-link px-2 text-white">Home</a></li>
-              <li><a href="products.html" class="nav-link px-2 text-white">Products</a></li>
-              <li><a href="about.html" class="nav-link px-2 text-white">About</a></li>
-              <li><a href="contact.html" class="nav-link px-2 text-white">Contact</a></li>
-            </ul>
-    
-            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-              <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
-            </form>
-    
-            <div class="text-end">
-                <a href="login.html"><button type="button" class="btn btn-outline-light me-2">Login</button></a>
-                <a href="singup.html"><button type="button" class="btn btn-warning">Sign-up</button></a> &emsp;&emsp;
-                <a href=""><img src="image/shopping-cart (2).png" class="shopping-cart" alt="png" width="30px" height="30px"></a>
-            </div>
-          </div>
-        </div>
-      </header>
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <img src="image/DALL·E 2024-10-13 19.25.14 - A modern logo for a store named 'mono it', specializing in technology and computer products. The design features minimalist elements like a circuit bo.webp" alt="" width="55px" height="55px">
 
-    <section class="hero">
-        <h2>Promotions!</h2>
-        <img src="image/23.jpg" alt="Featured Product" width="400px" >
-        <p>This is an amazing product that you should definitely buy!</p>
-    </section>
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="home.html" class="nav-link px-2 text-white">Home</a></li>
+                    <li><a href="products.html" class="nav-link px-2 text-white">Products</a></li>
+                    <li><a href="about.html" class="nav-link px-2 text-white">About</a></li>
+                    <li><a href="contact.html" class="nav-link px-2 text-white">Contact</a></li>
+                </ul>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                    <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+                </form>
+
+                <div class="text-end">
+                    <a href="login.html"><button type="button" class="btn btn-outline-light me-2">Login</button></a>
+                    <a href="signup.html"><button type="button" class="btn btn-warning">Sign-up</button></a>&emsp;
+                    <a href="cart.html"><img src="image/shopping-cart (2).png" class="shopping-cart" alt="png" width="30px" height="30px"></a>&emsp;&emsp;&emsp;&emsp;
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="slider">
+        <!-- Slide items -->
+        <div class="slides">
+            <div class="slide">
+                <img src="image/ดีไซน์ที่ยังไม่ได้ตั้งชื่อ.png" alt="Halloween Sale"></a>
+            </div>
+            <div class="slide">
+                <img src="image/www.MONOIT.com.png" alt="Super Sale">
+            </div>
+            <div class="slide">
+                <img src="image/Why should you use our service.png" alt="Super Sale">
+            </div>
+        </div>
+    </div>
 
     <section class="products">
-        <h2>Keyboard</h2>
+        <h2>Promotions</h2>
         <div class="product-grid">
             <div class="product-item">
-                <a href="pag/pag1.html"><img src="image/31.jpg" alt="Product 1" width="300px" height="300px"></a>
-                <h6>Logitech Gaming Keyboard G Pro</h6><br>
-                <p>3,990฿</p>
-                <a href="pag/pag1.html"><button type="button">Add to Cart</button></a>
+                <a href="pag/pag14.html"><img src="image/44.jpg" alt="JBL Quantum 50 Black" width="300px" height="300px"></a>
+                <h6>JBL Quantum 50 Black</h6><br><br>
+                <span class="current-price">฿1,040</span>
+                <span class="old-price">฿1,390</span>
+                <a href="javascript:void(0);" onclick="addToCart('JBL Quantum 50 Black', 1040, 'image/44.jpg')"><button type="button">Add to Cart</button></a>
             </div>
             <div class="product-item">
-                <a href="pag/pag1.html"><img src="image/32.jpg" alt="Product 1" width="300px" height="300px"></a>
-                <h6>Keychron K2 Pro Mechanical (QMK/VIA) - Red Switch (Eng/Th)</h6>
-                <p>4,390฿</p>
-                <a href="pag/pag2.html"><button type="button">Add to Cart</button></a>
-            </div>
-            <div class="product-item">
-                <a href="pag/pag1.html"><img src="image/33.jpg" alt="Product 1" width="300px" height="300px"></a>
-                <h6>Nubwo Gaming Keyboard X36 </h6><br>
-                <p>1,690฿</p>
-                <a href="pag/pag3.html"><button type="button">Add to Cart</button></a>
-            </div>
-            <div class="product-item">
-                <a href="pag/pag1.html"><img src="image/34.jpg" alt="Product 1" width="300px" height="300px"></a>
-                <h6>Keychron Gaming Keyboard K8 Pro Swappable </h6>
-                <p>4,190฿</p>
-                <a href="pag/pag4.html"><button type="button">Add to Cart</button></a>
-            </div>
-            <div class="product-item">
-                <a href="pag/pag1.html"><img src="image/35.jpg" alt="Product 1" width="300px" height="300px"></a>
-                <h6>Razer Gaming Keyboard Ornata V3 Tenkeyless Black</h6>
-                <p>1,290฿</p>
-                <a href="pag/pag5.html"><button type="button">Add to Cart</button></a>
-            </div>
-           
-        </div>
-    </section>
-    <section class="products">
-        <h2>Mouse</h2>
-        <div class="product-grid">
-            <div class="product-item">
-                <a href="pag/pag1.html"><img src="image/21.jpg" alt="Product 1" width="300px" height="300px"></a>
-                <h6>Razer Gaming Mouse Deathadder Essential Black</h6>
-                <p>990฿</p>
-                <a href="pag/pag1.html"><button type="button">Add to Cart</button></a>
-            </div>
-            <div class="product-item">
-                <a href="pag/pag1.html"><img src="image/22.jpg" alt="Product 1" width="300px" height="300px"></a>
+                <a href="pag/pag7.html"><img src="image/22.jpg" alt="Razer Gaming Mouse Cobra Pro" width="300px" height="300px"></a>
                 <h6>Razer Gaming Mouse Cobra Pro</h6><br>
-                <p>4,990฿</p>
-                <a href="pag/pag2.html"><button type="button">Add to Cart</button></a>
+                <span class="current-price">฿3,490</span>
+                <span class="old-price">฿4,990</span>
+                <a href="javascript:void(0);" onclick="addToCart('Razer Gaming Mouse Cobra Pro', 4990, 'image/22.jpg')"><button type="button">Add to Cart</button></a>
             </div>
             <div class="product-item">
-                <a href="pag/pag1.html"><img src="image/23.jpg" alt="Product 1" width="300px" height="300px"></a>
-                <h6>Logitech G PRO X SUPERLIGHT 2 Black</h6><br>
-                <p>5,190฿</p>
-                <a href="pag/pag3.html"><button type="button">Add to Cart</button></a>
+                <a href="pag/pag2.html"><img src="image/32.jpg" alt="Keychron K2 Pro Mechanical (QMK/VIA) - Red Switch" width="300px" height="300px"></a>
+                <h6>Keychron K2 Pro Mechanical (QMK/VIA) - Red Switch (Eng/Th)</h6>
+                <span class="current-price">฿4,390</span>
+                <span class="old-price">฿4,790</span>
+                <a href="javascript:void(0);" onclick="addToCart('Keychron K2 Pro Mechanical (QMK/VIA) - Red Switch (Eng/Th)', 4390, 'image/32.jpg')"><button type="button">Add to Cart</button></a>
             </div>
             <div class="product-item">
-                <a href="pag/pag1.html"><img src="image/24.jpg" alt="Product 1" width="300px" height="300px"></a>
+                <a href="pag/pag6.html"><img src="image/21.jpg" alt="Razer Gaming Mouse Deathadder Essential Black" width="300px" height="300px"></a>
+                <h6>Razer Gaming Mouse Deathadder Essential Black</h6>
+                <span class="current-price">฿590</span>
+                <span class="old-price">฿990</span>
+                <a href="javascript:void(0);" onclick="addToCart('Razer Gaming Mouse Deathadder Essential Black', 990, 'image/21.jpg')"><button type="button">Add to Cart</button></a>
+            </div>
+            <div class="product-item">
+                <a href="pag/pag5.html"><img src="image/35.jpg" alt="Razer Gaming Keyboard Ornata V3 Tenkeyless Black" width="300px" height="300px"></a>
+                <h6>Razer Gaming Keyboard Ornata V3 Tenkeyless Black</h6>
+                <span class="current-price">฿1,290</span>
+                <span class="old-price">฿2,490</span>
+                <a href="javascript:void(0);" onclick="addToCart('Razer Gaming Keyboard Ornata V3 Tenkeyless Black', 1290, 'image/35.jpg')"><button type="button">Add to Cart</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <h2>Most Selling</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <a href="pag/pag4.html"><img src="image/34.jpg" alt="Keychron Gaming Keyboard K8 Pro Swappable" width="300px" height="300px"></a>
+                <h6>Keychron Gaming Keyboard K8 Pro Swappable</h6>
+                <p>4,190฿</p>
+                <a href="javascript:void(0);" onclick="addToCart('Keychron Gaming Keyboard K8 Pro Swappable', 4190, 'image/34.jpg')"><button type="button">Add to Cart</button></a>
+            </div>
+            <div class="product-item">
+                <a href="pag/pag3.html"><img src="image/33.jpg" alt="Nubwo Gaming Keyboard X36" width="300px" height="300px"></a>
+                <h6>Nubwo Gaming Keyboard X36</h6><br>
+                <p>1,690฿</p>
+                <a href="javascript:void(0);" onclick="addToCart('Nubwo Gaming Keyboard X36', 1690, 'image/33.jpg')"><button type="button">Add to Cart</button></a>
+            </div>
+            <div class="product-item">
+                <a href="pag/pag9.html"><img src="image/24.jpg" alt="Logitech Gaming Mouse G502 Hero High Performance" width="300px" height="300px"></a>
                 <h6>Logitech Gaming Mouse G502 Hero High Performance</h6>
                 <p>1,490฿</p>
-                <a href="pag/pag4.html"><button type="button">Add to Cart</button></a>
+                <a href="javascript:void(0);" onclick="addToCart('Logitech Gaming Mouse G502 Hero High Performance', 1490, 'image/24.jpg')"><button type="button">Add to Cart</button></a>
             </div>
             <div class="product-item">
-                <a href="pag/pag1.html"><img src="image/25.jpg" alt="Product 1" width="300px" height="300px"></a>
-                <h6>SteelSeries Gaming Mouse Aerox 3 Wireless Black Onyx</h6>
-                <p>4,290฿</p>
-                <a href="pag/pag5.html"><button type="button">Add to Cart</button></a>
-            </div>
-           
-        </div>
-    </section>
-    <section class="products">
-        <h2>Headset</h2>
-        <div class="product-grid">
-            <div class="product-item">
-                <a href="pag/pag1.html"><img src="image/41.jpg" alt="Product 1" width="300px" height="300px"></a>
-                <h6>SteelSeries Arctis Nova 5 Wireless (Series PS5) Black</h6>
-                <p>5,590฿</p>
-                <a href="pag/pag1.html"><button type="button">Add to Cart</button></a>
-            </div>
-            <div class="product-item">
-                <a href="pag/pag1.html"><img src="image/42.jpg" alt="Product 1" width="300px" height="300px"></a>
+                <a href="pag/pag12.html"><img src="image/42.jpg" alt="Razer Kaira HyperSpeed Xbox Licensed Black" width="300px" height="300px"></a>
                 <h6>Razer Kaira HyperSpeed Xbox Licensed Black</h6>
                 <p>4,690฿</p>
-                <a href="pag/pag2.html"><button type="button">Add to Cart</button></a>
+                <a href="javascript:void(0);" onclick="addToCart('Razer Kaira HyperSpeed Xbox Licensed Black', 4690, 'image/42.jpg')"><button type="button">Add to Cart</button></a>
             </div>
             <div class="product-item">
-                <a href="pag/pag1.html"><img src="image/43.jpg" alt="Product 1" width="300px" height="300px"></a>
+                <a href="pag/pag10.html"><img src="image/25.jpg" alt="SteelSeries Gaming Mouse Aerox 3 Wireless Black Onyx" width="300px" height="300px"></a>
+                <h6>SteelSeries Gaming Mouse Aerox 3 Wireless Black Onyx</h6>
+                <p>4,290฿</p>
+                <a href="javascript:void(0);" onclick="addToCart('SteelSeries Gaming Mouse Aerox 3 Wireless Black Onyx', 4290, 'image/25.jpg')"><button type="button">Add to Cart</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <h2>Trending</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <a href="pag/pag1.html"><img src="image/31.jpg" alt="Logitech Gaming Keyboard G Pro" width="300px" height="300px"></a>
+                <h6>Logitech Gaming Keyboard G Pro</h6><br>
+                <p>3,990฿</p>
+                <a href="javascript:void(0);" onclick="addToCart('Logitech Gaming Keyboard G Pro', 3990, 'image/31.jpg')"><button type="button">Add to Cart</button></a>
+            </div>
+            <div class="product-item">
+                <a href="pag/pag9.html"><img src="image/24.jpg" alt="Logitech Gaming Mouse G502 Hero High Performance" width="300px" height="300px"></a>
+                <h6>Logitech Gaming Mouse G502 Hero High Performance</h6>
+                <p>1,490฿</p>
+                <a href="javascript:void(0);" onclick="addToCart('Logitech Gaming Mouse G502 Hero High Performance', 1490, 'image/24.jpg')"><button type="button">Add to Cart</button></a>
+            </div>
+            <div class="product-item">
+                <a href="pag/pag13.html"><img src="image/43.jpg" alt="SteelSeries Arctis 7P Plus Wireless White" width="300px" height="300px"></a>
                 <h6>SteelSeries Arctis 7P Plus Wireless White</h6><br>
                 <p>7,990฿</p>
-                <a href="pag/pag3.html"><button type="button">Add to Cart</button></a>
+                <a href="javascript:void(0);" onclick="addToCart('SteelSeries Arctis 7P Plus Wireless White', 7990, 'image/43.jpg')"><button type="button">Add to Cart</button></a>
             </div>
             <div class="product-item">
-                <a href="pag/pag1.html"><img src="image/44.jpg" alt="Product 1" width="300px" height="300px"></a>
-                <h6>JBL Quantum 50 Black</h6><br>
-                <p>1,040฿</p>
-                <a href="pag/pag4.html"><button type="button">Add to Cart</button></a>
+                <a href="pag/pag5.html"><img src="image/35.jpg" alt="Razer Gaming Keyboard Ornata V3 Tenkeyless Black" width="300px" height="300px"></a>
+                <h6>Razer Gaming Keyboard Ornata V3 Tenkeyless Black</h6>
+                <p>1,290฿</p>
+                <a href="javascript:void(0);" onclick="addToCart('Razer Gaming Keyboard Ornata V3 Tenkeyless Black', 1290, 'image/35.jpg')"><button type="button">Add to Cart</button></a>
             </div>
             <div class="product-item">
-                <a href="pag/pag1.html"><img src="image/45.jpg" alt="Product 1" width="300px" height="300px"></a>
+                <a href="pag/pag15.html"><img src="image/45.jpg" alt="HyperX Gaming Headset Cloud Alpha Wireless" width="300px" height="300px"></a>
                 <h6>HyperX Gaming Headset Cloud Alpha Wireless</h6>
                 <p>6,990฿</p>
-                <a href="pag/pag5.html"><button type="button">Add to Cart</button></a>
+                <a href="javascript:void(0);" onclick="addToCart('HyperX Gaming Headset Cloud Alpha Wireless', 6990, 'image/45.jpg')"><button type="button">Add to Cart</button></a>
             </div>
-            
-           
         </div>
     </section>
 
@@ -156,5 +172,7 @@
         <p>&copy; 2024 My Sales Website. All rights reserved.</p>
     </footer>
 
+    <script src="java script/cart.js"></script>
 </body>
+
 </html>

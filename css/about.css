@@ -35,6 +35,51 @@ article p {
     margin-bottom: 3rem;
 }
 
+
+
+.hero1-con {
+    display: flex;
+}
+
+.hero1-info {
+    width: 100%;
+    padding: 2rem;
+    margin-top: 7rem;
+}
+
+.hero1-info h3 {
+    font-size: 2rem;
+}
+
+.hero1-info p {
+    margin: 1rem 0;
+    margin-right: 16rem;
+    margin-bottom: 3rem;
+}
+
+.hero1-info h4 {
+    font-size: 20px;
+}
+
+.hero1-info h5 {
+    font-size: 18px;
+    margin-top: 0.5rem;
+}
+
+.hero1-img {
+    padding: 2rem;
+}
+
+.hero1-img h4 {
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+.hero1-img h5 {
+    font-size: 16px;
+    margin-top: 0.5rem;
+}
+
 footer {
     text-align: center;
     padding: 20px;

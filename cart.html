@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+
+<body>
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <img src="image/DALL·E 2024-10-13 19.25.14 - A modern logo for a store named 'mono it', specializing in technology and computer products. The design features minimalist elements like a circuit bo.webp" alt="" width="55px" height="55px">
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="home.html" class="nav-link px-2 text-white">Home</a></li>
+                    <li><a href="products.html" class="nav-link px-2 text-white">Products</a></li>
+                    <li><a href="about.html" class="nav-link px-2 text-white">About</a></li>
+                    <li><a href="contact.html" class="nav-link px-2 text-white">Contact</a></li>
+                </ul>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                    <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+                </form>
+
+                <div class="text-end">
+                    <a href="login.html"><button type="button" class="btn btn-outline-light me-2">Login</button></a>
+                    <a href="signup.html"><button type="button" class="btn btn-warning">Sign-up</button></a>&emsp;&emsp;
+                    <a href="cart.html"><img src="image/shopping-cart (2).png" class="shopping-cart" alt="png" width="30px" height="30px"></a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="cart-container">
+        <div class="cart-items">
+
+        </div>
+
+
+        <div class="cart-summary">
+            <div class="discount-section">
+                <input type="text" placeholder="Enter discount code">
+                <button class="apply-btn">Apply</button>
+            </div>
+            <div class="total-section">
+                <p>Total Price: <span class="total-amount">฿0</span></p>
+                <p>Discount: <span class="discount-amount">-฿0</span></p>
+                <p>Final Total: <span class="final-amount">฿0</span></p>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 My Sales Website. All rights reserved.</p>
+    </footer>
+    <script src="java script/cart.js"></script>
+</body>
+
+</html>

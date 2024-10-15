@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="../css/page.css">
+    <link rel="website icon" type="jpg" href="/image/DALL·E 2024-10-13 19.25.14 - A modern logo for a store named 'mono it', specializing in technology and computer products. The design features minimalist elements like a circuit bo.webp">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+</head>
+
+<body>
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <img src="/image/DALL·E 2024-10-13 19.25.14 - A modern logo for a store named 'mono it', specializing in technology and computer products. The design features minimalist elements like a circuit bo.webp" alt="" width="55px" height="55px">
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="/home.html" class="nav-link px-2 text-white">Home</a></li>
+                    <li><a href="/products.html" class="nav-link px-2 text-white">Products</a></li>
+                    <li><a href="/about.html" class="nav-link px-2 text-white">About</a></li>
+                    <li><a href="/contact.html" class="nav-link px-2 text-white">Contact</a></li>
+                </ul>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                    <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+                </form>
+
+                <div class="text-end">
+                    <a href="/login.html"><button type="button" class="btn btn-outline-light me-2">Login</button></a>
+                    <a href="../signup.html"><button type="button" class="btn btn-warning">Sign-up</button></a>&emsp;&emsp;
+                    <a href="../cart.html"><img src="/image/shopping-cart (2).png" class="shopping-cart" alt="png" width="30px" height="30px"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="product-container">
+        <div class="product-content">
+            <div class="carousel">
+                <input type="radio" name="carousel" id="image1" checked>
+                <input type="radio" name="carousel" id="image2">
+                <input type="radio" name="carousel" id="image3">
+                <input type="radio" name="carousel" id="image4">
+                <input type="radio" name="carousel" id="image5">
+
+                <div class="images">
+                    <div class="image" id="slide1">
+                        <img src="../image/42.jpg" alt="Product Image 1" width="40%">
+                    </div>
+                    <div class="image" id="slide2">
+                        <img src="../image/Razer-Gaming-Headset-Kaira-HyperSpeed-Xbox-Licensed-Black-1-square_medium (1).webp" alt="Product Image 2">
+                    </div>
+                    <div class="image" id="slide3">
+                        <img src="../image/Razer-Gaming-Headset-Kaira-HyperSpeed-Xbox-Licensed-Black-1-square_medium.webp" alt="Product Image 3">
+                    </div>
+                    <div class="image" id="slide4">
+                        <img src="../image/Razer-Gaming-Headset-Kaira-HyperSpeed-Xbox-Licensed-Black-2-square_medium.jpg" alt="Product Image 4">
+                    </div>
+                    <div class="image" id="slide5">
+                        <img src="../image/Razer-Gaming-Headset-Kaira-HyperSpeed-Xbox-Licensed-Black-3-square_medium.jpg" alt="Product Image 5">
+                    </div>
+                </div>
+
+                <div class="thumbnails">
+                    <label for="image1"><img src="../image/42.jpg" alt="Thumbnail 1"></label>
+                    <label for="image2"><img src="../image/Razer-Gaming-Headset-Kaira-HyperSpeed-Xbox-Licensed-Black-1-square_medium (1).webp" alt="Thumbnail 2"></label>
+                    <label for="image3"><img src="../image/Razer-Gaming-Headset-Kaira-HyperSpeed-Xbox-Licensed-Black-1-square_medium.webp" alt="Thumbnail 3"></label>
+                    <label for="image4"><img src="../image/Razer-Gaming-Headset-Kaira-HyperSpeed-Xbox-Licensed-Black-2-square_medium.jpg" alt="Thumbnail 4"></label>
+                    <label for="image5"><img src="../image/Razer-Gaming-Headset-Kaira-HyperSpeed-Xbox-Licensed-Black-3-square_medium.jpg" alt="Thumbnail 5"></label>
+                </div>
+            </div>
+
+            <div class="product-info">
+                <h1 class="product-title">Razer Kaira HyperSpeed Xbox Licensed Black</h1>
+                <p class="product-brand">แบรนด์: RAZER</p>
+                <p class="product-sku">SKU: 8887910060018</p>
+                <p class="product-description">
+                    หูฟังเกมมิ่งไร้สาย Razer Kaira HyperSpeed Black มอบการเชื่อมต่อไร้สายความเร็วสูง 2.4GHz ผ่านดองเกิล USB Type C ที่ให้มา ชุดหูฟังนี้รับประกันเสียงที่ราบรื่นและมีความหน่วงต่ำซึ่งตอบสนองความต้องการของเกมการแข่งขันบนหลายแพลตฟอร์ม
+
+                </p>
+                <ul class="product-features">
+                    <li>: แบตเตอรี่ใช้งานได้นานสูงสุด 30 ชั่วโมง</li>
+                    <li>: รองรับการเชื่อมต่อกับ Xbox Series X|S และ Xbox One</li>
+                    <li>: แผ่นรองหูฟังทำจาก Memory Foam ที่นุ่มและระบายอากาศได้ดี</li>
+                </ul>
+                <div class="product-price">
+                    <span>฿4,690</span>
+
+                </div>
+
+                <div class="product-buttons">
+                    <button class="buy-now-btn">Buy Now</button>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="reviews">
+            <h3>รีวิวจากลูกค้า</h3>
+            <div class="review">
+                ⭐⭐⭐ - "ของใหม่แท้ๆ ลงทะเบียนกับRazerได้"
+            </div>
+            <div class="review">
+                ⭐⭐⭐⭐ - "กล่องสินค้ามีรอยบุบบริเวณมุมกล่อง แต่ไม่ผลต่อการใช้งาน"
+            </div>
+        </div>
+
+        <div class="products">
+            <h2>Other Products</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <a href="pag8.html"><img src="../image/23.jpg" alt="Logitech G PRO X SUPERLIGHT 2 Black" width="300px" height="300px"></a>
+                    <h6>Logitech G PRO X SUPERLIGHT 2 Black</h6><br>
+                    <p>5,190฿</p>
+                    <a href="javascript:void(0);" onclick="addToCart('Logitech G PRO X SUPERLIGHT 2 Black', 5190, 'image/23.jpg')"><button type="button">Add to Cart</button></a>
+                </div>
+                <div class="product-item">
+                    <a href="pag9.html"><img src="../image/24.jpg" alt="Logitech Gaming Mouse G502 Hero High Performance" width="300px" height="300px"></a>
+                    <h6>Logitech Gaming Mouse G502 Hero High Performance</h6>
+                    <p>1,490฿</p>
+                    <a href="javascript:void(0);" onclick="addToCart('Logitech Gaming Mouse G502 Hero High Performance', 1490, 'image/24.jpg')"><button type="button">Add to Cart</button></a>
+                </div>
+                <div class="product-item">
+                    <a href="pag10.html"><img src="../image/25.jpg" alt="SteelSeries Gaming Mouse Aerox 3 Wireless Black Onyx" width="300px" height="300px"></a>
+                    <h6>SteelSeries Gaming Mouse Aerox 3 Wireless Black Onyx</h6>
+                    <p>4,290฿</p>
+                    <a href="javascript:void(0);" onclick="addToCart('SteelSeries Gaming Mouse Aerox 3 Wireless Black Onyx', 4290, 'image/25.jpg')"><button type="button">Add to Cart</button></a>
+                </div>
+                <div class="product-item">
+                    <a href="pag11.html"><img src="../image/41.jpg" alt="SteelSeries Arctis Nova 5 Wireless (Series PS5) Black" width="300px" height="300px"></a>
+                    <h6>SteelSeries Arctis Nova 5 Wireless (Series PS5) Black</h6>
+                    <p>5,590฿</p>
+                    <a href="javascript:void(0);" onclick="addToCart('SteelSeries Arctis Nova 5 Wireless (Series PS5) Black', 5590, 'image/41.jpg')"><button type="button">Add to Cart</button></a>
+                </div>
+                <div class="product-item">
+                    <a href="pag13.html"><img src="../image/43.jpg" alt="SteelSeries Arctis 7P Plus Wireless White" width="300px" height="300px"></a>
+                    <h6>SteelSeries Arctis 7P Plus Wireless White</h6><br>
+                    <p>7,990฿</p>
+                    <a href="javascript:void(0);" onclick="addToCart('SteelSeries Arctis 7P Plus Wireless White', 7990, 'image/43.jpg')"><button type="button">Add to Cart</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 My Sales Website. All rights reserved.</p>
+    </footer>
+    <script src="../java script/cart.js"></script>
+</body>
+
+</html>

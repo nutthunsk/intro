@@ -4,7 +4,6 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
-
 }
 
 header {
@@ -31,13 +30,31 @@ header nav ul li a {
 
 .products {
     padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.products h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.product-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 40px;
 }
 
 .product-grid {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-items: center;
 }
 
 .product-item {
@@ -45,7 +62,8 @@ header nav ul li a {
     padding: 15px;
     border: 1px solid #ddd;
     text-align: center;
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
 }
 
 .product-item img {
@@ -59,10 +77,18 @@ header nav ul li a {
     padding: 10px;
     border: none;
     cursor: pointer;
+    border-radius: 5 px;
 }
 
 .product-item button:hover {
     background-color: #218838;
+}
+
+@media (max-width: 768px) {
+    .products h2 {
+        text-align: center;
+        padding-right: 5px;
+    }
 }
 
 footer {

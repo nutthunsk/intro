@@ -1,45 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
 
-    <link rel="website icon" type="jpg" href="image/DALL·E 2024-10-13 19.25.14 - A modern logo for a store named 'mono it', specializing in technology and computer products. The design features minimalist elements like a circuit bo.webp">
+    <link rel="icon" type="image/jpg" href="image/DALL·E 2024-10-13 19.25.14 - A modern logo for a store named 'mono it', specializing in technology and computer products. The design features minimalist elements like a circuit bo.webp">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 </head>
+
 <body>
 
-  <header class="p-3 text-bg-dark">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <img src="image/DALL·E 2024-10-13 19.25.14 - A modern logo for a store named 'mono it', specializing in technology and computer products. The design features minimalist elements like a circuit bo.webp" alt="" width="55px" height="55px">
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <img src="image/DALL·E 2024-10-13 19.25.14 - A modern logo for a store named 'mono it', specializing in technology and computer products. The design features minimalist elements like a circuit bo.webp" alt="" width="55px" height="55px">
 
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="home.html" class="nav-link px-2 text-white">Home</a></li>
-          <li><a href="products.html" class="nav-link px-2 text-white">Products</a></li>
-          <li><a href="about.html" class="nav-link px-2 text-white">About</a></li>
-          <li><a href="contact.html" class="nav-link px-2 text-white">Contact</a></li>
-        </ul>
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="home.html" class="nav-link px-2 text-white">Home</a></li>
+                    <li><a href="products.html" class="nav-link px-2 text-white">Products</a></li>
+                    <li><a href="about.html" class="nav-link px-2 text-white">About</a></li>
+                    <li><a href="contact.html" class="nav-link px-2 text-white">Contact</a></li>
+                </ul>
 
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-          <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
-        </form>
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                    <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+                </form>
 
-        <div class="text-end">
-            <a href="login.html"><button type="button" class="btn btn-outline-light me-2">Login</button></a>
-            <a href="singup.html"><button type="button" class="btn btn-warning">Sign-up</button></a> &emsp;&emsp;
-            <a href=""><img src="image/shopping-cart (2).png" class="shopping-cart" alt="png" width="30px" height="30px"></a>
-
+                <div class="text-end">
+                    <a href="login.html"><button type="button" class="btn btn-outline-light me-2">Login</button></a>
+                    <a href="signup.html"><button type="button" class="btn btn-warning">Sign-up</button></a>&emsp;&emsp;
+                    <a href="cart.html"><img src="image/shopping-cart (2).png" class="shopping-cart" alt="png" width="30px" height="30px"></a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </header>
+    </header>
 
-    <footer>
+    <main class="container mt-5">
+        <h1 class="text-center mb-4">Contact Us</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div class="card p-4 shadow">
+                    <h4>Get in Touch</h4>
+                    <p><strong>Email:</strong> MONOIT@gmail.com</p>
+                    <p><strong>Phone:</strong> (+66) 019-191-9911</p>
+                    <p><strong>Address:</strong>123 Sukhumvit Road, Khlong Toei District, Bangkok, 10110, Thailand </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center p-4 bg-dark text-white mt-5">
         <p>&copy; 2024 My Sales Website. All rights reserved.</p>
     </footer>
-    
+
 </body>
+
 </html>
